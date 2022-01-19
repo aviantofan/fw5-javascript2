@@ -1,7 +1,6 @@
 const name = ["Abigail", "Alexandra", "Alison", "Amanda", "Angela", "Bella", "Carol", "Caroline", "Carolyn", "Deirdre", "Diana", "Elizabeth","Ella", "Faith", "Olivia", "Penelope"]
 
-function searchName(a,cb){
-  console.log(a)
+function searchName(cb){
   return cb(name)  
 }
 
@@ -13,4 +12,4 @@ function cari(name){
     return fin
 }
 
-console.log(searchName("OUTPUT : ", cari))
+console.log(searchName(cari))
