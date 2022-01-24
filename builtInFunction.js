@@ -3,7 +3,7 @@ Metode ini mengembalikan string yang mewakili objek yang ditentukan.
 Metode toString() mem-parsing argumen pertamanya, 
 dan mencoba mengembalikan representasi string dalam radix (basis) yang ditentukan.*/
 num = 15
-console.log("num.toString() is" + " " +num.toString(2))
+console.log("num.toString() is" + " " +num.toString())
 
 /*Method Number - valueOf()
 Metode ini mengembalikan nilai primitif dari objek angka yang ditentukan.*/
