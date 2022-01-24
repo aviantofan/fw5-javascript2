@@ -37,7 +37,7 @@ console.log("nama.length is " + " " + nama.length)
 /*Method String - search()
 Method ini mengeksekusi pencarian kecocokan antara ekspresi reguler dan objek String ini.*/
 let a = "Tofan"
-if(nama.search(a)== -1){
+if(nama.search(a)== "tofan"){
     console.log("Tidak Ada")
 }else{
     console.log("Ada")
