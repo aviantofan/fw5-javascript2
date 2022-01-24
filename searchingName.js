@@ -4,8 +4,8 @@ function searchName(cb){
   return cb(name)  
 }
 
-function cari(name){
-  const fin = name.filter(function(arr){
+function cari(a){
+  const fin = a.filter(function(arr){
     return arr.toLowerCase().includes("an")
   })
     fin.splice(3)
